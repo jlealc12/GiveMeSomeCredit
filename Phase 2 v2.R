@@ -132,12 +132,12 @@ library(gbm)
 library(nnet)
 library(NeuralNetTools)
 library(mice)
-source("C:/Users/jaime/OneDrive/Escritorio/Babson/R/Data/BabsonAnalytics.R")
+source("C:/Users/xxxx/OneDrive/Escritorio/School/R/Data/SchoolAnalytics.R")
 
 
 
 
-df_base=read.csv("C:/Users/jaime/OneDrive/Escritorio/Babson/R/TrabajoFinal/GiveMeSomeCredit/cs-training.csv")
+df_base=read.csv("C:/Users/xxxx/OneDrive/Escritorio/School/R/TrabajoFinal/GiveMeSomeCredit/cs-training.csv")
 df_base$X=NULL
 
 #imputation Number of Dependants
